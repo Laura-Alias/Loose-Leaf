@@ -2,17 +2,71 @@ body {
 	background-color: white;
 	}
 
-#header {
+#headerfooter {
 	background-image: url(../images/gradient.jpg);
 	background-color: rgb(126,10,0);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 100px;
+	height: 13vh;
 	}
 	
 #wrapper { 
-	width: 65%;
+	width: 80%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	height: 75vh;
+	text-align: center;
 	}	
+	
+.box {
+	margin: 10px;
+	font-size: 60px;
+	height: 50vh;
+	}
+	
+.boxtop {
+	background-image: url(../images/menu.jpeg);
+	background-position: center -36vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: relative;
+	}
+	
+.line {
+	display: flex;
+	flex-direction: row;
+	}
+
+.box1 {
+	background-image: url(../images/designers.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: relative;
+	width: 33%;
+	margin-right: 10px;
+	}
+	
+.box2 {
+	background-image: url(../images/suggestion.jpeg);
+	background-position: -1vh center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: relative;
+	width: 33%;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+.box3 {
+	background-image: url(../images/events.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: relative;
+	width: 33%;
+	margin-left: 10px;
+	}
