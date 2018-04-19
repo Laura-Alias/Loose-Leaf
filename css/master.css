@@ -1,0 +1,9 @@
+#header {
+	background-image: url(../images/gradient.jpg);
+	background-color: rgb(126,10,0);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100px;
+	}
