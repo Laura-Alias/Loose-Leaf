@@ -2,14 +2,37 @@ body {
 	background-color: white;
 	}
 
-#headerfooter {
+.parents {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent2 {
+  position: absolute;
+  margin-left: 72vh;
+  top: 1px;
+}
+
+img.parent2 {
+	border-radius: 100%;
+	width: 17%;
+	}
+
+#header {
 	background-image: url(../images/gradient.jpg);
 	background-color: rgb(126,10,0);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 13vh;
+	height: 14vh;
 	}
 	
 #wrapper { 
@@ -17,7 +40,7 @@ body {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	height: 75vh;
+	height: 79vh;
 	text-align: center;
 	}	
 	
@@ -69,4 +92,14 @@ body {
 	background-attachment: relative;
 	width: 33%;
 	margin-left: 10px;
+	}
+	
+#footer {
+	background-image: url(../images/gradient.jpg);
+	background-color: rgb(126,10,0);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 7vh;
 	}
