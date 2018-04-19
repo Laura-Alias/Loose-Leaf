@@ -1,3 +1,7 @@
+body {
+	background-color: white;
+	}
+
 #header {
 	background-image: url(../images/gradient.jpg);
 	background-color: rgb(126,10,0);
@@ -7,3 +11,8 @@
 	background-size: cover;
 	height: 100px;
 	}
+	
+#wrapper { 
+	width: 65%;
+	margin: 0 auto;
+	}	
