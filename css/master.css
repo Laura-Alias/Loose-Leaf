@@ -34,15 +34,22 @@ a:visited {
 
 .parent2 {
   position: absolute;
-  margin-left: 72vh;
   top: 1px;
 }
 
 img.parent2 {
 	border-radius: 100%;
-	width: 17%;
+	width: 250px;
+	left: 41%;
 	}
 	
+@media only screen and (max-width: 600px) {
+	img.parent2 {
+		width: 150px;
+		left: 35%;
+		}
+	}	
+
 #footer {
 	background-image: url(../images/gradient.jpg);
 	background-color: rgb(126,10,0);
@@ -113,7 +120,7 @@ img.parent2 {
     }
 }
 
-@media only screen {
+@media only screen and (min-width: 600px) {
 	.box1 {
 	border-right: 10px solid white;
 		}
