@@ -76,22 +76,26 @@ img.parent2 {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	height: 79vh;
 	text-align: center;
+	height: 79vh;
 	}
 	
 	
 .box {
 	margin: 10px;
+<<<<<<< HEAD
 	font-size: 60px;
+=======
+	font-size: 50px;
+>>>>>>> responsive
 	}
 	
 .boxtop {
 	background-image: url(../images/menu.jpeg);
-	background-position: center -36vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
+<<<<<<< HEAD
 	height: 50vh;
 	}
 	
@@ -103,11 +107,44 @@ img.parent2 {
 	.line {
 		flex-direction: column;
 		}
+=======
+	height: 36vh;
+	max-width: 100%;
+>>>>>>> responsive
 	}
 	
 .line {
-	display: flex;
-	flex-direction: row;
+	display: table;
+	width: 98.5%;
+	}
+	
+.boxes {
+	 display: table-cell;
+	 height: 36vh;
+	 width: 33%;
+	 }
+	 
+@media only screen and (max-width: 600px) {
+    .boxes { 
+        display: block;
+        width: 97%;
+    }
+}
+
+@media only screen {
+	.box1 {
+	border-right: 10px solid white;
+		}
+		
+	.box2 {
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+		}
+		
+	.box3 {
+	border-left: 10px solid white;
+		}	
+		
 	}
 
 .box1 {
@@ -116,19 +153,13 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	width: 33%;
-	margin-right: 10px;
 	}
 	
 .box2 {
 	background-image: url(../images/suggestion.jpeg);
-	background-position: -1vh center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: relative;
-	width: 33%;
-	margin-left: 10px;
-	margin-right: 10px;
 	}
 	
 .box3 {
@@ -137,7 +168,5 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	width: 33%;
-	margin-left: 10px;
 	}
 
