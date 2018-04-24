@@ -1,6 +1,24 @@
 body {
 	background-color: white;
 	}
+	
+a:link { 
+	color: white;
+	}
+	
+a:visited {
+	color: white;
+	}
+	
+#header {
+	background-image: url(../images/gradient.jpg);
+	background-color: rgb(126,10,0);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 14vh;
+	}
 
 .parents {
   position: relative;
@@ -24,16 +42,34 @@ img.parent2 {
 	border-radius: 100%;
 	width: 17%;
 	}
-
-#header {
+	
+#footer {
 	background-image: url(../images/gradient.jpg);
 	background-color: rgb(126,10,0);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 14vh;
+	height: 7vh;
 	}
+	
+.topnav ul {
+	margin-left: 100vh;
+	width: 100%;
+	display: inline;
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+}
+
+.topnav ul li {
+	display: inline;
+	color: white;
+	font-size: 11px;
+	line-height: 70px;
+	padding-left: 15px;
+}
+	
+/* Index */
 	
 #wrapper { 
 	width: 80%;
@@ -42,7 +78,8 @@ img.parent2 {
 	flex-direction: column;
 	height: 79vh;
 	text-align: center;
-	}	
+	}
+	
 	
 .box {
 	margin: 10px;
@@ -93,13 +130,4 @@ img.parent2 {
 	width: 33%;
 	margin-left: 10px;
 	}
-	
-#footer {
-	background-image: url(../images/gradient.jpg);
-	background-color: rgb(126,10,0);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 7vh;
-	}
+
