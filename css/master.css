@@ -83,11 +83,7 @@ img.parent2 {
 	
 .box {
 	margin: 10px;
-<<<<<<< HEAD
-	font-size: 60px;
-=======
 	font-size: 50px;
->>>>>>> responsive
 	}
 	
 .boxtop {
@@ -95,22 +91,8 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-<<<<<<< HEAD
-	height: 50vh;
-	}
-	
-@media only (max-width: 600px) {
-	.boxtop {
-		height: 20vh;
-		}
-		
-	.line {
-		flex-direction: column;
-		}
-=======
 	height: 36vh;
 	max-width: 100%;
->>>>>>> responsive
 	}
 	
 .line {
@@ -169,4 +151,5 @@ img.parent2 {
 	background-size: cover;
 	background-attachment: relative;
 	}
+
 
