@@ -76,28 +76,52 @@ img.parent2 {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	height: 79vh;
 	text-align: center;
+	height: 79vh;
 	}
 	
 	
 .box {
 	margin: 10px;
 	font-size: 60px;
-	height: 50vh;
 	}
 	
 .boxtop {
 	background-image: url(../images/menu.jpeg);
-	background-position: center -36vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
+	height: 500px;
+	max-width: 100%;
+	}
+	
+@media only (max-width: 600px) {
+	.boxtop {
+		height: 100px;
+		}
 	}
 	
 .line {
-	display: flex;
-	flex-direction: row;
+	display: table;
+	width: 98.5%;
+	}
+	
+.boxes {
+	 display: table-cell;
+	 height: 39vh;
+	 }
+	 
+@media only screen and (max-width: 600px) {
+    .boxes { 
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only (max-width: 600px) {
+	.boxes {
+		height: 100px;
+		}
 	}
 
 .box1 {
@@ -106,19 +130,13 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	width: 33%;
-	margin-right: 10px;
 	}
 	
 .box2 {
 	background-image: url(../images/suggestion.jpeg);
-	background-position: -1vh center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: relative;
-	width: 33%;
-	margin-left: 10px;
-	margin-right: 10px;
 	}
 	
 .box3 {
@@ -127,7 +145,5 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	width: 33%;
-	margin-left: 10px;
 	}
 
