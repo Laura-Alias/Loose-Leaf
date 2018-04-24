@@ -83,7 +83,7 @@ img.parent2 {
 	
 .box {
 	margin: 10px;
-	font-size: 60px;
+	font-size: 50px;
 	}
 	
 .boxtop {
@@ -91,14 +91,8 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	height: 500px;
+	height: 36vh;
 	max-width: 100%;
-	}
-	
-@media only (max-width: 600px) {
-	.boxtop {
-		height: 50px;
-		}
 	}
 	
 .line {
@@ -108,20 +102,31 @@ img.parent2 {
 	
 .boxes {
 	 display: table-cell;
-	 height: 39vh;
+	 height: 36vh;
+	 width: 33%;
 	 }
 	 
 @media only screen and (max-width: 600px) {
     .boxes { 
         display: block;
-        width: 100%;
+        width: 97%;
     }
 }
 
-@media only (max-width: 600px) {
-	.boxes {
-		height: 100px;
+@media only screen {
+	.box1 {
+	border-right: 10px solid white;
 		}
+		
+	.box2 {
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+		}
+		
+	.box3 {
+	border-left: 10px solid white;
+		}	
+		
 	}
 
 .box1 {
