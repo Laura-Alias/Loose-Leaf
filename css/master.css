@@ -4,11 +4,15 @@ body {
 	
 a:link { 
 	color: white;
+	text-decoration: none;
 	}
 	
 a:visited {
 	color: white;
+	text-decoration: none;
 	}
+	
+
 	
 #header {
 	background-image: url(../images/gradient.jpg);
@@ -39,8 +43,8 @@ a:visited {
 
 img.parent2 {
 	border-radius: 100%;
-	width: 250px;
-	left: 41%;
+	width: 210px;
+	left: 43%;
 	}
 	
 @media only screen and (max-width: 600px) {
@@ -60,20 +64,25 @@ img.parent2 {
 	height: 7vh;
 	}
 	
-.topnav ul {
-	margin-left: 100vh;
+.contact ul {
 	width: 100%;
 	display: inline;
-	padding-bottom: 30px;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid transparent;
+	margin-left: 30%;
 }
 
-.topnav ul li {
+@media only screen and (max-width: 600px) {
+	.contact ul {
+		margin-left: 2%;
+		}
+	}
+
+.contact ul li {
 	display: inline;
 	color: white;
 	font-size: 11px;
 	line-height: 70px;
-	padding-left: 15px;
+	padding-left: 1%;
 }
 	
 /* Index */
@@ -85,57 +94,33 @@ img.parent2 {
 	flex-direction: column;
 	text-align: center;
 	height: 79vh;
-	}
-	
+	}	
 	
 .box {
-	margin: 10px;
-	font-size: 50px;
+	margin-top: 10px;
+	height: 37.5vh;
 	}
 	
+.link {
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	}
+	
+.link a {
+	border: 5px solid white;
+	padding: 10px;
+	background-color: rgba(255,255,255, 0.3)
+	}
+
 .boxtop {
 	background-image: url(../images/menu.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	height: 36vh;
-	max-width: 100%;
+	background-position: center;
 	}
 	
-.line {
-	display: table;
-	width: 98.5%;
-	}
-	
-.boxes {
-	 display: table-cell;
-	 height: 36vh;
-	 width: 33%;
-	 }
-	 
-@media only screen and (max-width: 600px) {
-    .boxes { 
-        display: block;
-        width: 97%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-	.box1 {
-	border-right: 10px solid white;
-		}
-		
-	.box2 {
-	border-right: 10px solid white;
-	border-left: 10px solid white;
-		}
-		
-	.box3 {
-	border-left: 10px solid white;
-		}	
-		
-	}
-
 .box1 {
 	background-image: url(../images/designers.jpeg);
 	background-position: center;
@@ -149,6 +134,7 @@ img.parent2 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: relative;
 	}
 	
 .box3 {
@@ -158,5 +144,56 @@ img.parent2 {
 	background-size: cover;
 	background-attachment: relative;
 	}
+	
+.line {
+	display: table;
+	width: 100%;
+	}
+	
+.boxes {
+	 display: table-cell;
+	 width: 33%;
+	 }
+	 
+@media only screen and (max-width: 600px) {
+    .boxes { 
+        display: block;
+        width: 100%;
+        }
+        
+    .box1 {
+	border-bottom: 10px solid white;
+	height: 18vh;
+		}
+		
+	.box2 {
+	border-bottom: 10px solid white;
+	height: 18vh;
+		}
+		
+	.box3 {
+	border-bottom: 10px solid white;
+	height: 18vh;
+		}	
+		
+	.boxtop {
+	height: 18vh;
+	}  
+}
+
+@media only screen and (min-width: 600px) {
+	.box1 {
+	border-right: 10px solid white;
+		}
+		
+	.box2 {
+	border-right: 5px solid white;
+	border-left: 5px solid white;
+		}
+		
+	.box3 {
+	border-left: 10px solid white;
+		}			
+}
 
 
