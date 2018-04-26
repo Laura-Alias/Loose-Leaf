@@ -54,7 +54,7 @@ img.parent2 {
 		}
 		
 	img.parent2 {
-		width: 150px;
+		width: 145px;
 		}
 	}	
 
@@ -72,12 +72,12 @@ img.parent2 {
 	width: 100%;
 	display: inline;
 	border-bottom: 1px solid transparent;
-	margin-left: 30%;
+	margin-left: 33%;
 }
 
 @media only screen and (max-width: 600px) {
 	.contact ul {
-		margin-left: 2%;
+		margin-left: 4%;
 		}
 	}
 
@@ -178,8 +178,7 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	 display: table-cell;
-	 width: 33%;
+
 	}
 	
 .box2 {
@@ -188,8 +187,6 @@ img.parent2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: relative;
-	 display: table-cell;
-	 width: 33%;
 	}
 	
 .box3 {
@@ -201,39 +198,42 @@ img.parent2 {
 	}
 	
 .line {
-	display: table;
+	display: flex;
 	width: 100%;
 	}
 	
 .boxes {
-	 display: table-cell;
-	 width: 33%;
+	display: flex;
+	width: 33%;
 	 }
 	 
 @media only screen and (max-width: 600px) {
     .boxes { 
-        display: block;
         width: 100%;
+        border-bottom: 10px solid white;
         }
         
-    .box1 {
-		border-bottom: 10px solid white;
-		height: 18vh;
-		}
-		
-	.box2 {
-		border-bottom: 10px solid white;
-		height: 18vh;
-		}
-		
-	.box3 {
-		border-bottom: 10px solid white;
-		height: 18vh;
-		}	
-		
-	.boxtop {
-		height: 18vh;
+	.line {
+		flex-direction: column;
+		align-contents: stretch;
+		height: 57vh;
+	}	
+			
+	.boxtop { 
+	height: 18vh;
 	}  
+	
+	.box1 {
+	height: 18vh;
+	}
+	
+	.box2 {
+	height: 18vh;
+	}
+	
+	.box3 {
+	height: 18vh;
+	}
 }
 
 @media only screen and (min-width: 600px) {
