@@ -251,7 +251,36 @@ img.parent2 {
 		}			
 }
 
+/* Designers */
 
+.h1a {
+	font-size: 50px;
+	text-align: left;
+	margin-top: 5vh;
+	}
+	
+.h2a {
+	font-size: 20px;
+	text-align: left;
+	margin-top: 2vh;
+	}
+	
+.boxcolumn {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1vh;
+	}
+	
+.boxline {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2vh;
+	}
+	
+.roundimage {
+	border-radius: 100%;
+	}
+	
 /* Suggestion */
 
 .background {
@@ -346,7 +375,7 @@ img.parent2 {
 	margin-left: 5vh;
 	}
 	
-.h1 {
+.h1b {
 	font-size: 50px;
 	margin-top: 12vh;
 	}
