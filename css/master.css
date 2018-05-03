@@ -281,7 +281,7 @@ img.parent2 {
 .bookleaf {
 	width: 20%;
 	margin-right: 59%;
-	margin-top: 7%;
+	margin-top: 5%;
 	}
 	
 #text {
@@ -299,5 +299,56 @@ img.parent2 {
 	}
 	
 /* Events */
+	
+#event {
+  position:relative;
+}
 
-.tara
+#event img.bottom {
+	margin-left: 9vh;
+	margin-top: 9vh;
+	}
+
+#event img.top {
+	margin-left: 9vh;
+	margin-top: 9vh;
+	}
+
+#event img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#event img.top:hover {
+  opacity:0;
+}
+
+#form {
+	margin-left: 10vh;
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+	}
+	
+#form label {
+	font-size: 20px;
+	margin-left: 2vh;
+	}
+	
+#form input {
+	margin-left: 5vh;
+	}
+	
+.h1 {
+	font-size: 50px;
+	margin-top: 12vh;
+	}
+	
+#form2 {
+	margin-left: 10vh;
+	margin-top: 1vh;
+	}
