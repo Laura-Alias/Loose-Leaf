@@ -328,8 +328,11 @@ img.parent2 {
 }
 
 #form {
-	margin-left: 10vh;
 	margin-top: 5vh;
+	margin-right: 5vh;
+	}
+	
+.flexline {
 	display: flex;
 	justify-content: center;
 	}
@@ -348,7 +351,6 @@ img.parent2 {
 	margin-top: 12vh;
 	}
 	
-#form2 {
-	margin-left: 10vh;
-	margin-top: 1vh;
+#form input.submitbutton {
+	margin-top: 2vh;
 	}
