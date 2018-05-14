@@ -10,7 +10,7 @@
 		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
 		<link type="text/css" rel="stylesheet" href="css/master.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Khand:500" rel="stylesheet">
-		<script src="https://use.fontawesome.com/30d45d3278.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</head>
 	
 	<body>
@@ -19,17 +19,17 @@
 		
 			<div class="parent1">
 			
-				<div id="header">	
-					<div class="fullscreen">				
-						<ul class="navigation">
-							<li><a href="menu.html">Tea Menu</a></li>
-							<li><a href="designers.html">Designers</a></li>
-							<li><span></span></li>
-							<li><a href="suggestion.html">Suggestion <span class="smaller">of the Week</span></a></li>
-							<li><a href="events.html">Events</a></li>
-						</ul>
-					</div>
-				</div>
+				<header class="header">
+					<input class="menu-btn" type="checkbox" id="menu-btn" />
+  					<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>					
+					<ul class="menu">
+						<li><a href="menu.html">Tea Menu</a></li>
+						<li><a href="designers.html">Designers</a></li>
+						<li><span></span></li>
+						<li><a href="suggestion.html">Special <span class="smaller">this Week</span></a></li>
+						<li><a href="events.html">Events</a></li>
+					</ul>
+				</header>
 			
 			</div>
 			
@@ -42,112 +42,85 @@
 				<div class="columncolor1">
 					<div class="flavour1">
 						<div class="rectangle rectangle1"></div>
-						<p class="centered">Rooibos Tea</p>
+						<p class="centered"> < Rooibos Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle2"></div>
-						<p class="centered">Green Tea</p>
+						<p class="centered"> < Green Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle3"></div>
-						<p class="centered">Matcha Tea</p>
+						<p class="centered"> < Matcha Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle4"></div>
-						<p class="centered">Oolong Tea</p>
+						<p class="centered"> < Oolong Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle5"></div>
-						<p class="centered">Mate Tea</p>
+						<p class="centered"> < Mate Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle6"></div>
-						<p class="centered">Bubble Tea</p>
+						<p class="centered"> < Bubble Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle7"></div>
-						<p class="centered">Black Tea</p>
+						<p class="centered"> < Black Tea</p>
 					</div>
 					
 					<div class="flavour1">
 						<div class="rectangle rectangle8"></div>
-						<p class="centered">White Tea</p>
+						<p class="centered"> < White Tea</p>
 					</div>
-				</div>
-				
-				<div class="columnchoice">
-					<form id="color">
-						<select name="select">
-							<option value="rooibostea" name="rooibostea">Rooibos Tea</option>
-							<option value="greentea" name="greentea">Green Tea</option>
-							<option value="matchatea" name="matchatea">Matcha Tea</option>
-							<option value="oolongtea" name="oolongtea">Oolong Tea</option>
-							<option value="matetea" name="matetea">Mate Tea</option>
-							<option value="bubbletea" name="bubbletea">Bubble Tea</option>
-							<option value="blacktea" name="blacktea">Black Tea</option>
-							<option value="whitetea" name="whitetea">White Tea</option>
-						</select>
-						<select name="select">
-							<option value="mint" name="mint">Mint</option>
-							<option value="mango" name="mango">Mango</option>
-							<option value="rose" name="rose">Rose</option>
-							<option value="berries" name="berries">Berries</option>
-							<option value="honey" name="honey">Honey</option>
-							<option value="aniseed" name="aniseed">Aniseeds</option>
-							<option value="lavender" name="lavender">Lavender</option>
-							<option value="lemonlime" name="lemonlime">Lemon&Lime</option>
-						</select>
-						<input id="subtea" type="submit" name="submit" value="submit">
-					</form>
-					
 				</div>
 				
 				<div class="columncolor2">
 				
 					<div class="flavour2">
 						<div class="rectangle rectangle9"></div>
-						<p class="centered">Mint</p>
+						<p class="centered">Mint > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle10"></div>
-						<p class="centered">Mango</p>
+						<p class="centered">Mango > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle11"></div>
-						<p class="centered">Rose</p>
+						<p class="centered">Rose > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle12"></div>
-						<p class="centered">Berries</p>
+						<p class="centered">Berries > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle13"></div>
-						<p class="centered">Honey</p>
+						<p class="centered">Honey > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle14"></div>
-						<p class="centered">Aniseed</p>
+						<p class="centered">Anis > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle15"></div>
-						<p class="centered">Lavender</p>
+						<p class="centered">Lavender > </p>
 					</div>
 					
 					<div class="flavour2">
 						<div class="rectangle rectangle16"></div>
-						<p class="centered">Lemon & Lime</p>
+						<p class="centered">Lemon & Lime > </p>
 					</div>	
 				</div>
 			</div>
@@ -157,13 +130,13 @@
 				
 					<div class="contact">
 						<ul>
-							<li><i class="fa fa-phone" aria-hidden="true"></i> +141 000 000 000</li>
-							<li><i class="fa fa-envelope" aria-hidden="true"></i> info@looseleaf.com</li>
-							<li><a href="https://www.google.com/maps/@53.3452087,-6.2656795,3a,75y,121.89h,82.86t/data=!3m6!1e1!3m4!1sDh9ALWAxS1Od92WYjMftbw!2e0!7i13312!8i6656"><i class="fa fa-map-marker" aria-hidden="true"></i> Essex St. E, Temple Bar, Dublin.</li>
-							<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="https://plus.google.com/discover"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
+							<li><i class="fas fa-phone" aria-hidden="true"></i> +141 000 000 000</li>
+							<li><i class="fas fa-envelope" aria-hidden="true"></i> info@looseleaf.com</li>
+							<li><a href="https://www.google.com/maps/@53.3452087,-6.2656795,3a,75y,121.89h,82.86t/data=!3m6!1e1!3m4!1sDh9ALWAxS1Od92WYjMftbw!2e0!7i13312!8i6656"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Essex St. E, Temple Bar, Dublin.</li>
+							<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+							<li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="https://plus.google.com/discover"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fas fa-wifi" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 				
