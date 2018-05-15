@@ -81,6 +81,11 @@ img.parent2 {
 	.contact ul {
 		margin-left: 1%;
 		}
+		
+	#wrapper {
+	padding-left: 2.8vh;
+	padding-right: 2.8vh;
+		}
 	}
 
 .contact ul li {
@@ -145,16 +150,27 @@ img.parent2 {
 	color: black;
 	text-decoration: none;
 	}
-}
-
-.header li a {
-  display: block;
+	
+.header ul {
+	font-size: 20px;
+	background: white;
+	}
+	
+.header ul li {
+	padding: 2px;
+	border-bottom: 1px solid #C9C9C9;
+	text-align: center;
+	}
+	
+	.span1 {
+		display: none;
+	}
 }
 
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height .6s ease-out;
 }
 
 
@@ -162,7 +178,7 @@ img.parent2 {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 48px 20px;
+  padding: 75px 20px;
   position: relative;
   user-select: none;
 }
@@ -172,7 +188,7 @@ img.parent2 {
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition: background .6s ease-out;
   width: 18px;
 }
 
@@ -352,23 +368,25 @@ img.parent2 {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	height: 79vh;
+	height: 76vh;
 	font-size: 20px;
 	background-image: url(../images/milk.jpg);
 	background-color: white;
-	background-position: center -35vh;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-size: cover;
+	background-size: 80%;
 	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	}
 
 .rectangle {
     width: 7vh;
     height: 7vh;
     margin: 7px;
-    border: 1px solid white;
     display: flex;
+     border: 1px solid white;
 	}
 
 .linecolor {
@@ -474,13 +492,16 @@ p.centered {
 	margin-top: 70vh;
 	}
 	
+.teamenuh {
+	display: none;
+		}
+	
 @media only screen and (max-width: 600px) {
 	#wrappergreen {
 		font-size: 19px;
 		background-image: url(../images/milk.jpeg);
-		width: 120%;
-		height: 120%;
-		background-position: right center;
+		width: 130%;
+		background-position: left top;
 		}
 		
 	.columncolor1 {
@@ -491,7 +512,7 @@ p.centered {
 	
 	.columncolor2 {
 		margin-top: 2vh;
-		margin-right: 13vh; 
+		margin-right: 18vh; 
 		margin-bottom: 2vh;
 		}
 	}
@@ -538,7 +559,7 @@ p.centered {
 		}
 	
 	.h1a {
-		margin-top: 5vh;
+		margin-top: 1vh;
 	}			
 	
 	}
@@ -575,7 +596,7 @@ p.centered {
 	}
 	
 	h1.res {
-		font-size: 30px;
+		font-size: 32px;
 	}
 	
 	hr.hr {
@@ -697,7 +718,7 @@ p.centered {
 @media only screen and (max-width: 600px) {
 	.h1b {
 		font-size: 40px;
-		margin-top: 8vh;
+		margin-top: 2vh;
 		}
 	
 	.flexline {
@@ -722,7 +743,8 @@ p.centered {
 	.responsivetara {
 		display: inherit;
 		width: 100%;
-		height: 30vh;
+		height: 27vh;
+		margin-top: 6vh;
 		}
 	
 	}
