@@ -380,11 +380,11 @@ img.parent2 {
 	}
 
 p.lefttitle {
-	margin-left: 3vh;
+	margin-left: 6vh;
 	}
 	
 p.righttitle {
-	margin-right: 3vh;
+	margin-right: 6vh;
 	}
 
 .rectangle {
@@ -667,13 +667,13 @@ p.centered {
 }
 
 #event img.bottom {
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-right: 10%;
 	margin-top: 9vh;
 	}
 
 #event img.top {
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-right: 10%;
 	margin-top: 9vh;
 	}
