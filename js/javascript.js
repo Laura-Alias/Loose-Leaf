@@ -15,7 +15,7 @@ $(document).ready(function(){
             left: '54vh',
             opacity: '0.5',
             height: '30vh',
-            width: '40%'
+            width: '45%'
         });
     });
 });
@@ -29,7 +29,7 @@ $(document).ready(function(){
             left: '54vh',
             opacity: '0.5',
             height: '30vh',
-            width: '40%'
+            width: '45%'
         });
     });
 });
