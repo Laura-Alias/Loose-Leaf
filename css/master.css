@@ -379,20 +379,12 @@ img.parent2 {
 	margin-bottom: 10px;
 	}
 
-p.lefttitle {
-	margin-left: 6vh;
-	}
-	
-p.righttitle {
-	margin-right: 6vh;
-	}
-
 .rectangle {
     width: 7vh;
     height: 7vh;
     margin: 7px;
     display: flex;
-     border: 1px solid white;
+    border: 1px solid white;
 	}
 
 .linecolor {
@@ -406,14 +398,12 @@ p.righttitle {
 .columncolor1 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 5vh;
 	margin-left: 5vh; 
 	}
 	
 .columncolor2 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 5vh;
 	margin-right: 5vh; 
 	}
 	
@@ -521,6 +511,28 @@ p.centered {
 		margin-right: 18vh; 
 		margin-bottom: 2vh;
 		}
+	}
+	
+/* Animation */
+
+.animated1 {
+	background: black;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -20vh;
+	font-family: Arial;
+	position: fixed;
+	}
+	
+.animated2 {
+	background: black;
+	color: white;
+	width: 0px;
+	height: 0px;
+	right: -20vh;
+	font-family: Arial;
+	position: fixed;
 	}
 	
 /* Designers */
