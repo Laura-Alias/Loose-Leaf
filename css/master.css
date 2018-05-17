@@ -379,6 +379,14 @@ img.parent2 {
 	margin-bottom: 10px;
 	}
 
+p.lefttitle {
+	margin-left: 3vh;
+	}
+	
+p.righttitle {
+	margin-right: 3vh;
+	}
+
 .rectangle {
     width: 7vh;
     height: 7vh;
@@ -659,14 +667,14 @@ p.centered {
 }
 
 #event img.bottom {
-	margin-left: 10vh;
-	margin-right: 10vh;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 9vh;
 	}
 
 #event img.top {
-	margin-left: 10vh;
-	margin-right: 10vh;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 9vh;
 	}
 
