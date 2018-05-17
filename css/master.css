@@ -659,12 +659,14 @@ p.centered {
 }
 
 #event img.bottom {
-	margin-left: 9vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
 	margin-top: 9vh;
 	}
 
 #event img.top {
-	margin-left: 9vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
 	margin-top: 9vh;
 	}
 
