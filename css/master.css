@@ -55,8 +55,8 @@ img.parent2 {
 		}
 		
 	img.parent2 {
-		width: 130px;
-		height: 130px;
+		width: 120px;
+		height: 120px;
 		}
 	}	
 
@@ -111,7 +111,7 @@ img.parent2 {
 
 /* Navigation */
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
 .menu {
 	width: 100%;
 	position: relative;
@@ -127,7 +127,7 @@ img.parent2 {
 	float: left;
 	width: 20%;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 35px;
 	padding-top: 50px;
 	text-align: center;
 	}	
@@ -142,11 +142,38 @@ img.parent2 {
   overflow: hidden;
 }
  
-@media (max-width: 600px) {
-.header ul a:link { 
-	color: black;
-	text-decoration: none;
+@media (min-width: 601px) and (max-width: 768px) {
+	.menu li {
+		font-size: 19px;	
+		float: left;
+		width: 20%;
+		font-weight: bold;
+		padding-top: 50px;
+		text-align: center;
+		}
+		
+	.contact ul {
+		font-size: 7px;
+		margin-left: 25%;
+		}
+		
+		img.parent2 {
+		width: 180px;
+		height: 180px;
+		}
 	}
+ 
+@media (max-width: 600px) {
+	.header ul a:link { 
+		color: black;
+		text-decoration: none;
+	}
+	
+	.contact ul {
+		font-size: 7px;
+		margin-left: 2%;
+		}
+	
 	
 .header ul a:visited {
 	color: black;
@@ -347,6 +374,12 @@ img.parent2 {
 	}
 }
 
+@media (min-width: 601px) and (max-width: 768px) {
+	   .link {
+	   	font-size: 30px;
+	   }
+	}	
+
 @media only screen and (min-width: 600px) {
 	.box1 {
 		border-right: 10px solid white;
@@ -408,70 +441,6 @@ img.parent2 {
 	flex-direction: column;
 	margin-right: 5vh; 
 	}
-	
-.rectangle1 {
-    background: #8E465B;
-	}
-
-.rectangle2 {
-    background: #3A6641
-	}
-	
-.rectangle3 {
-    background: #498280
-	}
-	
-.rectangle4 {
-    background: #EAD973
-	}
-	
-.rectangle5 {
-    background: #CE8A23
-	}
-	
-.rectangle6 {
-    background: #49383C
-	}
-	
-.rectangle7 {
-    background: #6E73B5
-	}
-	
-.rectangle8 {
-    background: #7FA092
-	}
-	
-.rectangle9 {
-    background: #498280
-	}
-	
-.rectangle10 {
-    background: #CE8A23
-	}
-	
-.rectangle11 {
-    background: #6E73B5
-	}
-	
-.rectangle12 {
-    background: #8E465B;
-	}
-	
-.rectangle13 {
-    background: #EAD973
-	}
-	
-.rectangle14 {
-    background: #7FA092
-	}
-	
-.rectangle15 {
-    background: #49383C
-	}
-	
-.rectangle16 {
-    background: #3A6641
-	}
 
 .flavour1 {
 	display: flex;
@@ -516,6 +485,28 @@ p.centered {
     	width: 5vh;
     	height: 5vh;
 		}
+		
+	button.button1 {
+		display: none;
+		}
+		
+	button.button2 {
+		display: none;
+		}
+	}
+
+@media (min-width: 601px) and (max-width: 768px) {
+	button.button1 {
+		display: none;
+		}
+		
+	button.button2 {
+		display: none;
+		}
+		
+	.linecolor {
+		border-top: 30px solid white;
+		}
 	}
 	
 /* Animation */
@@ -540,6 +531,182 @@ p.centered {
 	font-family: Arial;
 	position: fixed;
 	font-size: 25px;
+	}
+	
+.rectangletext1 {
+	background: #8E465B;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext2 {
+	background: #3A6641;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext3 {
+	background: #498280;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext4 {
+	background: #EAD973;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext5 {
+	background: #CE8A23;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext6 {
+	background: #49383C;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext7 {
+	background: #6E73B5;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext8 {
+	background: #7FA092;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext9 {
+	background: #498280;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext10 {
+	background: #CE8A23;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext11 {
+	background: #6E73B5;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext12 {
+	background: #8E465B;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext13 {
+	background: #EAD973;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext14 {
+	background: #7FA092;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext15 {
+	background: #49383C;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
+	}
+	
+.rectangletext16 {
+	background: #3A6641;
+	color: white;
+	width: 0px;
+	height: 0px;
+	left: -30vh;
+	font-family: Arial;
+	position: fixed;
+	font-size: 23px;
 	}
 	
 /* Designers */
@@ -636,6 +803,38 @@ p.centered {
 		margin-bottom: 5vh;
 	}
 	
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+	.background {
+		background-image: url(../images/mockup.jpg);
+		background-position: center right -10vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: relative;
+		}
+		
+	input.bookleaf {
+		width: 30%;
+		margin-left: 70%;
+		margin-top: 100%;
+		position: inherit;
+		}
+	
+	div#text {
+	width: 55%;
+	height: 25vh;
+	display: none;
+	background-color: rgba(0,0,0, 0.6);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	left: 1vh;
+	bottom: 8vh;
+	font-family: Arial;
+	position: absolute;
+	font-size: 18px;
+	}
 }
 
 
@@ -773,7 +972,19 @@ p.centered {
 	.responsivetara {
 		display: inherit;
 		width: 100%;
-		margin-top: 6vh;
+		margin-top: 7vh;
 		}
 	
+	}
+	
+@media (min-width: 601px) and (max-width: 768px) {
+	.responsivetara {
+		display: inherit;
+		width: 100%;
+		margin-top: 10vh;
+		}
+		
+	#event {
+		display: none;
+		}
 	}
